@@ -11,15 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    @RequestMapping("/index/{name}")
+    @RequestMapping("/hi")
     @ResponseBody
-    public String index(@PathVariable String name) {
-
-        if (null == name) {
-            name = "boy";
-        }
-
-        return "hello world" + name;
+    public String index() {
+        return "hello world, bitch!";
     }
 
 
