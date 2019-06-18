@@ -14,7 +14,7 @@ public class HelloWorldController {
     @RequestMapping("/hi")
     @ResponseBody
     public String index() {
-        return "hello world, bitch!!!!!";
+        return "hello world, bitch!!!!!hello world, bitch!!!!!";
     }
 
 
