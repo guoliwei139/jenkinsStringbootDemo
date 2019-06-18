@@ -48,6 +48,14 @@
 					<encoding>utf8</encoding>
 				</configuration>
 			</plugin>
+			<!--maven 打jar包使用-->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
 			<!--maven打包时候不运行测试用例-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
