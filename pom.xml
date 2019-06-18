@@ -48,21 +48,6 @@
 					<encoding>utf8</encoding>
 				</configuration>
 			</plugin>
-			<!--maven 打jar包使用-->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-							<useUniqueVersions>false</useUniqueVersions>
-							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.tvi.Main</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
 			<!--maven打包时候不运行测试用例-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
